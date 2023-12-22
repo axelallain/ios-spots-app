@@ -8,19 +8,38 @@
 import SwiftUI
 
 struct SpotsView: View {
+    
+    @State private var screenWidth = UIScreen.main.bounds.size.width
+    
     var body: some View {
         NavigationView {
-            List {
-                NavigationLink {
-                    SpotDetailsView()
-                } label: {
-                    Text("Spot name")
-                }
-                
-                NavigationLink {
-                    SpotDetailsView()
-                } label: {
-                    Text("Spot name")
+            ScrollView {
+                LazyVStack(spacing: 20) {
+                    NavigationLink {
+                        SpotDetailsView()
+                    } label: {
+                        Image("spot")
+                            .resizable()
+                            .scaleEffect(2.5)
+                            .blur(radius: 7)
+                            .cornerRadius(14)
+                            .frame(maxWidth: (screenWidth - 20))
+                            .frame(maxHeight: 250)
+                            .opacity(0.7)
+                    }
+                    
+                    NavigationLink {
+                        SpotDetailsView()
+                    } label: {
+                        Image("spot")
+                            .resizable()
+                            .scaleEffect(2.5)
+                            .blur(radius: 7)
+                            .cornerRadius(14)
+                            .frame(maxWidth: (screenWidth - 20))
+                            .frame(maxHeight: 250)
+                            .opacity(0.7)
+                    }
                 }
             }
         }
