@@ -26,6 +26,11 @@ struct SpotsView: View {
                             .frame(maxWidth: (screenWidth - 20))
                             .frame(maxHeight: 250)
                             .opacity(0.7)
+                            .overlay(
+                                Text("Spot name")
+                                    .padding(34)
+                                , alignment: .leading
+                            )
                     }
                     
                     NavigationLink {
@@ -39,6 +44,11 @@ struct SpotsView: View {
                             .frame(maxWidth: (screenWidth - 20))
                             .frame(maxHeight: 250)
                             .opacity(0.7)
+                            .overlay(
+                                Text("Spot name")
+                                    .padding(34)
+                                , alignment: .leading
+                            )
                     }
                 }
             }
