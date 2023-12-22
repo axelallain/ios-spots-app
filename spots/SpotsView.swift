@@ -9,7 +9,21 @@ import SwiftUI
 
 struct SpotsView: View {
     var body: some View {
-        Text("SpotsView")
+        NavigationView {
+            List {
+                NavigationLink {
+                    SpotDetailsView()
+                } label: {
+                    Text("Spot name")
+                }
+                
+                NavigationLink {
+                    SpotDetailsView()
+                } label: {
+                    Text("Spot name")
+                }
+            }
+        }
     }
 }
 

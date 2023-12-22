@@ -17,6 +17,7 @@
 		0A024DA42B350473005D457B /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A024DA32B350473005D457B /* MapView.swift */; };
 		0A024DA62B3504AC005D457B /* SpotsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A024DA52B3504AC005D457B /* SpotsView.swift */; };
 		0A024DA82B350663005D457B /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A024DA72B350663005D457B /* AccountView.swift */; };
+		0A024DAA2B3511E1005D457B /* SpotDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A024DA92B3511E1005D457B /* SpotDetailsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		0A024DA32B350473005D457B /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		0A024DA52B3504AC005D457B /* SpotsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotsView.swift; sourceTree = "<group>"; };
 		0A024DA72B350663005D457B /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		0A024DA92B3511E1005D457B /* SpotDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotDetailsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				0A024D7B2B3503C7005D457B /* ContentView.swift */,
 				0A024DA32B350473005D457B /* MapView.swift */,
 				0A024DA52B3504AC005D457B /* SpotsView.swift */,
+				0A024DA92B3511E1005D457B /* SpotDetailsView.swift */,
 				0A024DA72B350663005D457B /* AccountView.swift */,
 				0A024D7D2B3503C8005D457B /* Assets.xcassets */,
 				0A024D7F2B3503C8005D457B /* Preview Content */,
@@ -269,6 +272,7 @@
 				0A024D7C2B3503C7005D457B /* ContentView.swift in Sources */,
 				0A024DA42B350473005D457B /* MapView.swift in Sources */,
 				0A024DA62B3504AC005D457B /* SpotsView.swift in Sources */,
+				0A024DAA2B3511E1005D457B /* SpotDetailsView.swift in Sources */,
 				0A024D7A2B3503C7005D457B /* spotsApp.swift in Sources */,
 				0A024DA82B350663005D457B /* AccountView.swift in Sources */,
 			);
